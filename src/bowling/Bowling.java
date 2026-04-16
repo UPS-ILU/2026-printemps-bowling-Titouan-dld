@@ -1,12 +1,18 @@
 package bowling;
 
 public class Bowling {
-
+	
+	private int score;
+	
 	public Bowling() {
 		
 	}
 	
-	public int calculerScore() {
-		return 0;
+	public void roll(int NbQuilles) {
+		score += NbQuilles;
+	}
+	
+	public int score() {
+		return score;
 	}
 }

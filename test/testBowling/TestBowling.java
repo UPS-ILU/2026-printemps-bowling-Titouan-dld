@@ -17,9 +17,23 @@ class TestBowling {
 	}
 	
 	@Test
-	void test() {
-		assertEquals(0, bowling.calculerScore());
+	void testBowling1() {
+		assertEquals(0, bowling.score());
 	}
 
-
+	@Test
+	void testBowling2() {
+		for(int i = 0; i<20; i++)
+			bowling.roll(0);
+		assertEquals(0, bowling.score());
+		
+	}
+	
+	@Test
+	void testBowling3() {
+		for(int i = 0; i<20; i++)
+			bowling.roll(1);
+		assertEquals(20, bowling.score());
+		
+	}
 }

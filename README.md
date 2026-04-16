@@ -15,5 +15,9 @@
 
 # Backlog
 
-- [ ] Entrée : vide
-	  Score attendu : 0
+- 1 [X] Entrée : vide
+	    Score attendu : 0
+- 2 [X] Entrée : On roll 20 fois 0
+		Score attendu : 0
+- 3 [X] Entrée : On roll 20 fois 
+		Score attendu : 20
