@@ -46,4 +46,15 @@ class TestBowling {
 		assertEquals(30, bowling.score());
 		
 	}
+	
+	@Test
+	void testBowling5() {
+		bowling.roll(7);
+		bowling.roll(3);
+		bowling.roll(4);
+		for(int i = 0; i<17; i++)
+			bowling.roll(0);
+		assertEquals(30, bowling.score());
+		
+	}
 }

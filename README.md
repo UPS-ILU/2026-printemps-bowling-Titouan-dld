@@ -21,5 +21,7 @@
 		Score attendu : 0
 - 3 [X] Entrée : On roll 20 fois 
 		Score attendu : 20
-- 4 [ ] Entrée : On roll 10 fois 1 et 10 fois 2
+- 4 [X] Entrée : On roll 10 fois 1 et 10 fois 2
 		Score attendu : 30
+- 5 [ ] Entrée : On roll 7 puis 3(spare), ensuite 4 et 17 fois 0
+		Score attendu : 18
